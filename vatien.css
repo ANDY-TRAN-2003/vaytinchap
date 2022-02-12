@@ -1,0 +1,79 @@
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: blue;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu>ul>li{
+    position: relative;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px black;
+
+}
+.menu>ul>li:hover>ul{
+    color: yellow;
+    display: block;
+
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: aliceblue;
+}
+header{
+    background-image: url(img/Logo-TPB.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+
+}
+article{
+    width: 30%;
+    height: 500px;
+    font-size: xx-large;
+    float: left;
+}
+article>a{
+    text-decoration: none;
+    
+}
+aside{
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    float: left;
+}
